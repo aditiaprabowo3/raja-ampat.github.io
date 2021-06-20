@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    box-sizing: border-box;
+}
+ul li a{
+    font-weight: 500;
+    color: rgb(0, 0, 0) !important;
+    font-family: 'Merriweather', serif;
+}
+.navbar {
+    z-index: 999999;
+}
+.section-banner .text-content .bulat {
+    animation: bulat 1.2s infinite;
+    animation-delay: 1s;
+}
+.section-banner .overlay {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.10);
+}
+.nav-tab .nav-pills .active {
+    background-color: transparent !important;
+    color: #368F83 !important;
+    font-weight: 700 !important;
+    color: #000 important;
+} 
+.nav-tab .nav-pills .active:hover::after {
+    content: '';
+    border-bottom: 3px solid #368f83;
+    padding-bottom: 8px;
+    margin-top: -8px;
+    display: block;
+}
+.nav-tab .nav-pills button {
+    color: #000 !important;
+}
+.nav-tab .nav-pills button {
+    margin-left: -15px;
+}
+.nav-tab .nav-pills .active::after {
+    content: '';
+    border-bottom: 3px solid #368f83 !important;
+    padding-bottom: 8px;
+    margin-top: -8px;
+    display: block;
+}
+
+.thumbnail-content .active {
+    border: 3px solid #FF8A00;
+    padding: 0;
+}
+footer .phone ul li {
+    list-style: none;
+    margin-left: -35px;
+}
+footer .phone ul li a{
+    text-decoration: none;
+}
+footer ul li {
+    list-style: none;
+    margin-left: -35px;
+    margin-bottom: 17px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #fff !important;
+    opacity: 0.8;
+    font-weight: 300;
+    font-family: 'Merriweather', serif;
+}
+footer h5 {
+    font-weight: 700;
+    padding-bottom: 17px;
+    padding-top: 15px;
+}
+.navbar.putih {
+    background-color: #fff !important;
+}
+.navbar.putih ul li a {
+    color: #000 !important;
+}
+.navbar.putih .bt-1 a{
+    color: rgb(0, 0, 0) !important;
+}
+.navbar.putih .navbar-brand b{
+    color: #000 !important;
+}
+.navbar.putih {
+    z-index: 999999999;
+}
+.navbar {
+    padding: 15px !important;
+}
+
+/* breakpoint */
+/* desktop */
+@media (min-width: 300px) {
+    .section-banner .text-content h1 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .section-banner .text-content {
+        margin-top: 30px;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+        z-index: 9999999;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .section-about .text-content h2 {
+        font-size: 30px;
+        font-weight: 700 !important;
+    }
+    .section-about .text-content p {
+        font-size: 12px;
+    }
+    .section-about {
+        position: relative;
+    }
+    .section-about .text-content {
+        text-align: center;
+    }
+    .section-about .kotak {
+        width: 100%;
+        height: 90%;
+        background-color: #368F83;
+        position: absolute;
+        top: -50px;
+        left: -226px;
+    }
+    ul li {
+        padding: 0px;
+    }
+    #big-photo {
+        width: 100%;
+        height: 100%;
+    }
+    .content-info {
+        margin-left: 0px;
+    }
+    .nav-tabs button {
+        margin-left: -1px;
+        color: #000 !important;
+    }
+}
+/* desktop */
+@media (min-width: 400px) {
+    .section-banner .text-content h1 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .section-banner .text-content {
+        margin-top: 30px;
+    }
+    .section-banner .text-content {
+        margin-top: 30px;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+        z-index: 9999999;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .section-about .text-content h2 {
+        font-size: 40px;
+        font-weight: 700 !important;
+    }
+    .section-about {
+        position: relative;
+    }
+    .section-about .text-content p {
+        font-size: 15px;
+    } 
+    .section-about .text-content {
+        text-align: center;
+    }
+    .section-about .kotak {
+        width: 100%;
+        height: 90%;
+        background-color: #368F83;
+        position: absolute;
+        top: -50px;
+        left: -226px;
+    }
+    ul li {
+        padding: 0px;
+    }
+    #big-photo {
+        width: 100%;
+        height: 100%;
+    }
+    .content-info {
+        margin-left: 0px;
+    }
+    .nav-tabs button {
+        margin-left: -1px;
+        color: #000 !important;
+    }
+}
+/* desktop */
+@media (min-width: 777px) {
+    .section-banner .text-content h1 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .section-banner .text-content {
+        margin-top: 30px;
+    }
+    .section-about .text-content p {
+        font-size: 16px;
+    } 
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+        z-index: 9999999;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .section-about .text-content h2 {
+        font-size: 40px;
+        font-weight: 700 !important;
+    }
+    .section-about {
+        position: relative;
+    }
+    .section-about .text-content {
+        text-align: center;
+    }
+    .section-about .kotak {
+        width: 100%;
+        height: 90%;
+        background-color: #368F83;
+        position: absolute;
+        top: -50px;
+        left: -226px;
+    }
+    ul li {
+        padding: 0px;
+    }
+    #big-photo {
+        width: 100%;
+        height: 100%;
+    }
+    .content-info {
+        margin-left: 0px;
+    }
+    .nav-tabs button {
+        margin-left: -15px;
+        color: #000 !important;
+    }
+}
+/* desktop */
+@media (min-width: 999px) {
+    .section-banner .text-content h1 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .section-banner .text-content {
+        margin-top: 30px;
+    }
+    .section-about .img-content img {
+        width: 83%;
+        height: 83%;
+        z-index: 9999999;
+        position: relative;
+    }
+    .section-about .text-content h2 {
+        font-size: 40px;
+        font-weight: 700 !important;
+    }
+    .section-about .text-content p {
+        font-size: 16px;
+    } 
+    .section-about {
+        position: relative;
+    }
+    .section-about .text-content {
+        text-align: left;
+    }
+    .section-about .kotak {
+        width: 100%;
+        height: 100%;
+        background-color: #368F83;
+        position: absolute;
+        top: -50px;
+        left: -46px;
+    }
+    ul li {
+        padding: 0 15px;
+    }
+    #big-photo {
+        width: 100%;
+        height: 100%;
+    }
+    .content-info {
+        margin-left: 50px;
+    }
+    .nav-tabs button {
+        margin-left: -15px;
+        color: #000 !important;
+    }
+}
+
+/* pc */
+@media (min-width: 1200px) {
+    .section-banner .text-content h1 {
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .section-banner .text-content {
+        margin-top: 10px;
+    }
+    .section-about .img-content img {
+        width: 80%;
+        height: 80%;
+        z-index: 9999999;
+        position: relative;
+    }
+    .section-about .text-content p {
+        font-size: 17px;
+    } 
+    .section-about .text-content h2 {
+        font-size: 40px;
+        font-weight: 700 !important;
+    }
+    .section-about {
+        position: relative;
+    }
+    .section-about .text-content {
+        text-align: left;
+    }
+    .section-about .kotak {
+        width: 100%;
+        height: 100%;
+        background-color: #368F83;
+        position: absolute;
+        top: -90px;
+        left: -86px;
+    }
+    ul li {
+        padding: 0 15px;
+    }
+    #big-photo {
+        width: 100%;
+        height: 100%;
+    }
+    .content-info {
+        margin-left: 50px;
+    }
+    .nav-tabs button {
+        margin-left: -15px;
+        color: #000 !important;
+    }
+}
